@@ -13,14 +13,14 @@
     :root{
       --color-red:#ae1100;       --body-bg:#969aa5;        --play-bg:#ebecf0;
       --color-light:#ffffff;     --color-shadow:#babecc;   --text-color:#616e7f;
-      --bar-bg:#aec9f8;          --text-size:24px;
+      --bar-bg:#aec9f8;          --text-size:24px;             --color-blue:#76bdff;  --color-block:#332c2b;
     }
     body{
       height:100vh; background:var(--body-bg); 
       display:flex; justify-content:center; align-items:center;
     }
     .player_body{
-      width:360px; padding:25px 30px; border-radius:16px; background:var(--play-bg);
+      width:360px; padding:25px 30px; border-radius:16px; background:var(--color-blue);
       user-select:none;  position:relative;
       box-shadow: 6px 5px 10px 0px var(--text-color), 
                   7px 7px 5px 0px var(--color-light) inset,
@@ -28,7 +28,7 @@
     }
     .top{  margin-bottom:25px;  }
     .top>h2{
-      font-size:var(--text-size);  font-weight:500;  color:var(--text-color); text-align:center;
+      font-size:var(--text-size);  font-weight:500;  color:var(--color-block); text-align:center;
       text-shadow:1px 1px 1px var(--color-light), -1px -1px 1px #151515;
     }
     .album{
